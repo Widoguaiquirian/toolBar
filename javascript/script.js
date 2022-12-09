@@ -6,6 +6,7 @@ const btnDark = document.querySelector(".btn--dark");
 const toolsContainer = document.querySelector(".tools");
 const regularText = document.querySelectorAll(".regular-text");
 const btnSpacing = document.querySelector(".btn--space");
+const btnPrint = document.querySelector(".btn--print");
 
 //Active tool bars
 btn.addEventListener("click", function () {

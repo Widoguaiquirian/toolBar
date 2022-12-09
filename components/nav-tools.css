@@ -90,6 +90,10 @@
    color: white;
 }
 
+.bar__link:focus {
+   transform: scale(1.2);
+}
+
 .svg__item-icon {
    width: 2.5rem;
    height: 2.5rem;
