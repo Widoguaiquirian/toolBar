@@ -21,3 +21,9 @@ header {
    cursor: pointer;
    height: 80px;
 }
+
+@media (max-width: 1200px) {
+   header {
+      display: none;
+   }
+}
