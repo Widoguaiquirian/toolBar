@@ -1,0 +1,21 @@
+.content.dark {
+   color: white;
+}
+
+body.dark {
+   background-color: rgb(26, 26, 26);
+}
+
+.tools.dark .tools__container,
+.tools.dark .bar {
+   background-color: white;
+}
+
+.tools.dark .btn__title,
+.tools.dark .bar__link {
+   color: black;
+}
+
+.tools.dark .svg__sprite {
+   fill: black;
+}

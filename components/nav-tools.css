@@ -1,0 +1,96 @@
+.tools {
+   position: fixed;
+   left: 10px;
+   top: 10px;
+}
+
+.tools__container {
+   background-color: var(--color-primary);
+   width: 70px;
+   height: 70px;
+   border: 3px solid #4fbbff;
+   border-radius: 20px;
+   position: relative;
+   z-index: 1;
+}
+
+.btn {
+   position: absolute;
+   cursor: pointer;
+   background-color: transparent;
+   border: none;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 0%);
+}
+
+.btn__title {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   color: white;
+   font-size: 1.4rem;
+   transform: translate(-50%, -195%);
+}
+
+.btn-open {
+   display: none;
+}
+
+.btn.active .btn-close {
+   display: none;
+}
+
+.btn.active .btn-open {
+   display: block;
+}
+
+.svg__sprite {
+   width: 2rem;
+   height: 2rem;
+}
+
+.bar {
+   position: absolute;
+   top: 95%;
+   left: 50%;
+   width: 50px;
+   transform: translate(-50%);
+   background-color: var(--color-primary);
+   height: 0;
+   transition: all 0.3s ease;
+   border-radius: 0 0 5px 5px;
+   overflow: hidden;
+   font-size: 1.6rem;
+}
+
+.bar.active {
+   height: 220px;
+}
+
+.bar__ul {
+   display: flex;
+   flex-direction: column;
+   width: 50px;
+   align-items: center;
+   justify-content: center;
+}
+
+.bar__item {
+   padding: 1.5rem 0;
+   transition: all 0.4s ease;
+   border-radius: 5px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bar__link {
+   color: white;
+}
+
+.svg__item-icon {
+   width: 2.5rem;
+   height: 2.5rem;
+}

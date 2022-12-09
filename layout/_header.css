@@ -1,0 +1,23 @@
+header {
+   width: 100%;
+   max-width: 1100px;
+   margin: 0 auto 10rem auto;
+   border-radius: 0 0 5px 5px;
+   background-color: var(--color-primary);
+}
+
+.nav__list {
+   display: flex;
+   width: 100%;
+}
+
+.nav__item {
+   color: white;
+   text-transform: uppercase;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   height: 80px;
+}

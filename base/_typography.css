@@ -1,0 +1,23 @@
+body {
+   color: black;
+   font-family: "Outfit", sans-serif;
+   font-size: 1.8rem;
+   line-height: 1.6;
+}
+
+h1 {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: blueviolet;
+}
+
+img {
+   max-width: 100%;
+}
+
+.regular-text.space {
+   letter-spacing: 2px;
+}
