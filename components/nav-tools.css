@@ -61,12 +61,15 @@
    height: 0;
    transition: all 0.3s ease;
    border-radius: 0 0 5px 5px;
-   overflow: hidden;
    font-size: 1.6rem;
 }
 
 .bar.active {
    height: 220px;
+}
+
+.bar.active .bar__item {
+   visibility: visible;
 }
 
 .bar__ul {
@@ -79,12 +82,30 @@
 
 .bar__item {
    padding: 1.5rem 0;
-   transition: all 0.4s ease;
    border-radius: 5px;
    width: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
+   position: relative;
+   visibility: hidden;
+}
+
+.tooltips {
+   position: absolute;
+   border-radius: 5px;
+   padding: 0.5rem;
+   color: rgb(255, 255, 255);
+   background-color: var(--color-primary);
+   font-size: 1.2rem;
+   text-align: left;
+   left: 52px;
+   display: none;
+   width: max-content;
+}
+
+.bar__item:hover .tooltips {
+   display: block;
 }
 
 .bar__link {
