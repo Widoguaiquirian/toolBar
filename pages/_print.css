@@ -23,9 +23,11 @@ footer,
 figure,
 header,
 button,
+figcaption,
 nav,
 aside,
-.bar {
+.bar,
+.tools {
    display: none;
 }
 
@@ -41,11 +43,22 @@ h6 {
 
 /* LOGO APPEAR */
 /* REMEMBER ALWAYS USE THE CLASS LOGO IN ORDER TO APPLY THIS STYLE */
-.logo {
+.logoPrint {
    display: block;
+   visibility: visible;
    filter: grayscale(1);
-   margin: 20px auto 40px auto;
-   width: 100px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   top: 10px;
+}
+
+.textPrint {
+   display: block;
+   visibility: visible;
+   position: absolute;
+   left: 10%;
+   top: 10px;
 }
 
 /* HEADINGS SETTINGS*/

@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="main.css" />
 
       <!--PRINT-->
-      <link rel="stylesheet" href="" media="print" />
+      <link rel="stylesheet" type="text/css" href="pages/_print.css" media="print" />
 
       <!--FAVICON-->
       <link rel="icon" href="images/icons/1favicon.ico" />
@@ -74,7 +74,7 @@
                         </svg> </a
                   ></li>
                   <li class="bar__item"
-                     ><a href="print.html" target="_blank" class="bar__link btn--print">
+                     ><a href="#" class="bar__link btn--print" onclick="window.print();">
                         <svg class="svg__sprite svg__item-icon">
                            <use xlink:href="images/icons/_svg/sprite.svg#icon-printer"></use>
                         </svg> </a
@@ -101,6 +101,11 @@
                </ul>
             </nav>
          </header>
+
+         <!-- Print version -->
+         <img class="logoPrint" src="/images/logos/logouzoi82x24.png" alt="" />
+         <span class="textPrint">Print version</span>
+
          <main>
             <section class="content">
                <h1 class="headline-primary">Amazing article</h1>

@@ -33,3 +33,9 @@ time {
    display: block;
    font-size: 1.2rem;
 }
+
+.logoPrint,
+.textPrint {
+   display: none;
+   visibility: hidden;
+}
