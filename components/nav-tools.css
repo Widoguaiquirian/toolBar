@@ -3,13 +3,19 @@
    left: 10px;
    top: 10px;
    z-index: 99;
+   opacity: 40%;
+   transition: all 0.4s ease;
+}
+
+.tools:hover {
+   opacity: 100%;
 }
 
 .tools__container {
    background-color: var(--color-primary);
+
    width: 70px;
-   height: 70px;
-   border: 3px solid #4fbbff;
+   height: 65px;
    border-radius: 20px;
    position: relative;
    z-index: 1;
@@ -53,14 +59,15 @@
 
 .bar {
    position: absolute;
-   top: 95%;
+   top: 105%;
    left: 50%;
    width: 50px;
    transform: translate(-50%);
    background-color: var(--color-primary);
    height: 0;
+
    transition: all 0.3s ease;
-   border-radius: 0 0 5px 5px;
+   border-radius: 20px;
    font-size: 1.6rem;
 }
 
@@ -127,12 +134,16 @@
       top: 1px;
    }
 
+   .bar.active {
+      height: 195px;
+   }
+
    .tools__container {
       width: 50px;
       height: 50px;
-      border: 1px solid #4fbbff;
-      border-radius: 5px;
+      border-radius: 20px;
    }
+
    .btn__title {
       font-size: 1rem;
    }
