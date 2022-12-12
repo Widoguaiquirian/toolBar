@@ -13,3 +13,5 @@ Options:
 
 The print version hide all the elements that make the print hard. 
 ![image](https://user-images.githubusercontent.com/72318958/206873010-fd164c2f-60e5-43e2-b347-baced76339f0.png)
+
+![image](https://user-images.githubusercontent.com/72318958/207019357-218992c2-3c41-4b17-bfef-eb5dae4da88e.png)
