@@ -2,6 +2,8 @@
 
 Toolbar with some options to customize the layout, the idea is to let the user modify the default settings.
 
+https://tool-bar-lg.netlify.app/
+
 Options:
 
 1- Dark mode: Let the user to choose the most comfy background.
